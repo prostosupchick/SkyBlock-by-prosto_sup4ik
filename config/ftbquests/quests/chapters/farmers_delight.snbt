@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "50D18B90AB8CFA57"
+	icon: {
+		id: "farmersdelight:roasted_mutton_chops"
+	}
+	id: "70D8048CAF6ABB26"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "39560D9520647CE7"
+			tasks: [{
+				id: "35143B7385B5B0A9"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "7C8C960A7D0AB979"
+			tasks: [{
+				id: "3F0F6869F97D278F"
+				item: { count: 1, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "788E5862591CBCBF"
+			tasks: [{
+				id: "047A69662443630B"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "53636430EDF7A44A"
+			tasks: [{
+				id: "686F2DAD3C8BC2F5"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "39362D8657C9C4EE"
+			tasks: [
+				{
+					id: "33646F005E92156A"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "3737AE94FA1E5591"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "420E2485B81C0D32"
+					item: { count: 1, id: "sliceanddice:slicer" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "1B3B4167E59180F5"
+			tasks: [{
+				id: "71717F94E9F87346"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "626C7CA5ABA8EECE"
+			tasks: [{
+				id: "3C38F715006E2D67"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "63DF0F57884FBEB4"
+			tasks: [{
+				id: "3ED533884E42B22C"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "42723B8DAB5DE282"
+			tasks: [
+				{
+					id: "1F8589392E24F71A"
+					item: { count: 1, id: "farmersdelight:organic_compost" }
+					type: "item"
+				}
+				{
+					id: "75B176C9650FE441"
+					item: { count: 1, id: "farmersdelight:rich_soil" }
+					type: "item"
+				}
+				{
+					id: "0E1F63EA6ED37E8D"
+					item: { count: 1, id: "farmersdelight:rich_soil_farmland" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "3409B3FC08A5F4BF"
+			tasks: [{
+				id: "2E3435194391D5A3"
+				item: { count: 1, id: "farmersdelight:straw" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "3376EC15CB6AEEE2"
+			tasks: [{
+				id: "021B0334BBAA2944"
+				item: { count: 1, id: "farmersdelight:tree_bark" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "2F787AA88AB5A867"
+			tasks: [{
+				id: "5DCB39F189D578AA"
+				item: { count: 1, id: "farmersdelight:canvas" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+  // CobbleGen Format Version, you can leave this alone for now. v2.0 is scheduled to be released in CobbleGen v6.0
+  "formatVersion": "1.0",
+  "cobbleGen": [
+    {
+      "id": "minecraft:stone",
+      "weight": 50.0,
+      "minY": 0,
+    },
+    {
+      "id": "minecraft:andesite",
+      "weight": 30.0,
+      "minY": 0,
+    },
+    {
+      "id": "minecraft:diorite",
+      "weight": 20.0,
+      "minY": 0,
+    },
+    {
+      "id": "minecraft:granite",
+      "weight": 20.0,
+      "maxY": 0,
+    },
+    {
+      "id": "minecraft:cobbled_deepslate",
+      "weight": 80.0,
+      "maxY": 0,
+    },
+  ],
+  "stoneGen": [
+    {
+      "id": "minecraft:stone",
+      "weight": 100.0,
+    },
+  ],
+  "basaltGen": [
+    {
+      "id": "minecraft:basalt",
+      "weight": 50.0
+    },
+    {
+      "id": "minecraft:netherrack",
+      "weight": 50.0,
+    },
+  ],
+  
+}

@@ -1,0 +1,294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2c_broken_bad"
+	group: "59F8E57E2700FD46"
+	icon: {
+		id: "createbb:blue_meth"
+	}
+	id: "795C2E45B7F4DB71"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "17366FFF9BBC3907"
+			tasks: [
+				{
+					id: "7641193982726F9C"
+					item: { count: 1, id: "createbb:ephedra" }
+					type: "item"
+				}
+				{
+					id: "58BF03C51DDE80E2"
+					item: { count: 1, id: "createbb:ephedra_seeds" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17366FFF9BBC3907"]
+			id: "3935957A89EEED93"
+			tasks: [{
+				id: "0DE8AF0896B44C71"
+				item: { count: 1, id: "createbb:pseudophedrine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E0549EE85B33498"]
+			id: "3E09A496448D8141"
+			tasks: [{
+				id: "2D5599E373D140AC"
+				item: { count: 1, id: "createbb:red_phosphorus" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "3E0549EE85B33498"
+			tasks: [{
+				id: "5EC40CCAE1C8A3DF"
+				item: { count: 1, id: "createbb:white_phosphorus" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["032562340AC63AE8"]
+			id: "38F27C7223A2C4CE"
+			tasks: [{
+				id: "31519BC3D7839743"
+				item: { count: 1, id: "createbb:iodine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A5BD562E815D0CD"]
+			id: "032562340AC63AE8"
+			tasks: [{
+				id: "755F88C24761AA93"
+				item: { count: 1, id: "createbb:brine" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "6A5BD562E815D0CD"
+			tasks: [{
+				id: "3167D607488379A9"
+				item: { count: 1, id: "createbb:aluminosilicate_catalyst" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3935957A89EEED93"
+				"3E09A496448D8141"
+				"38F27C7223A2C4CE"
+			]
+			id: "499806AC4ECA5642"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "75E017F74E95B5CA"
+				item: { count: 1, id: "createbb:white_meth" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"322D574C74C78478"
+				"5F13D5EFF1134B10"
+			]
+			id: "4908C6F09B75377A"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "74B95E81A9A05C73"
+				item: { count: 1, id: "createbb:blue_meth" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0A63C86F186AF4C3"
+				"6ACFA973520CC39D"
+			]
+			id: "5F13D5EFF1134B10"
+			tasks: [{
+				id: "1033DEDDA655CAF2"
+				item: { count: 1, id: "createbb:methylamine_bucket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2A5FD9723E70B254"
+				"6F98C78EE676C5BC"
+			]
+			id: "322D574C74C78478"
+			tasks: [{
+				id: "6FDD6F596269CF4A"
+				item: { count: 1, id: "createbb:phenylacetone_bucket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["37158EDEEFD3C782"]
+			id: "6F98C78EE676C5BC"
+			tasks: [{
+				id: "160989E7BB86A52A"
+				item: { count: 1, id: "createbb:acetic_anhydride_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FA109BDCF7C7408"]
+			id: "2A5FD9723E70B254"
+			tasks: [{
+				id: "456BF9590DB00AB1"
+				item: { count: 1, id: "createbb:phenylacetic_acid_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39783675F5AC4CDF"]
+			id: "1FA109BDCF7C7408"
+			tasks: [{
+				id: "219E1B47BC370E03"
+				item: { count: 1, id: "createbb:cyanide" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["169F34C406284F01"]
+			icon: {
+				id: "createbb:oxygen_bucket"
+			}
+			id: "37158EDEEFD3C782"
+			tasks: [
+				{
+					id: "62CA530C2135C7FE"
+					item: { count: 1, id: "createbb:oxygen_bucket" }
+					type: "item"
+				}
+				{
+					id: "430A8C34092F4BD4"
+					item: { count: 1, id: "minecraft:sugar" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B38A8CE53986D49"]
+			id: "0A63C86F186AF4C3"
+			tasks: [{
+				id: "3FEF7F3D49528B64"
+				item: { count: 1, id: "createbb:ammonia_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E9A0A13B031C2F3"]
+			id: "6ACFA973520CC39D"
+			tasks: [{
+				id: "1916CAC1FCAC37E6"
+				item: { count: 1, id: "createbb:methanol_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DA89D2B606E6106"]
+			id: "6B38A8CE53986D49"
+			tasks: [{
+				id: "795ADDDF6FA548CC"
+				item: { count: 1, id: "createbb:nitrogen" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["169F34C406284F01"]
+			icon: {
+				id: "createbb:hydrogen_bucket"
+			}
+			id: "6E9A0A13B031C2F3"
+			tasks: [
+				{
+					id: "09DC7C0609814722"
+					item: { count: 1, id: "createbb:hydrogen_bucket" }
+					type: "item"
+				}
+				{
+					id: "106C38D9D0C714F3"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "169F34C406284F01"
+			tasks: [{
+				id: "71BA52CA3A74E167"
+				item: { count: 1, id: "createbb:copper_zinc_catalyst" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "3DA89D2B606E6106"
+			tasks: [{
+				id: "2A301502FE4C6242"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "39783675F5AC4CDF"
+			tasks: [{
+				id: "423D7A5CDD67A925"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+	]
+}

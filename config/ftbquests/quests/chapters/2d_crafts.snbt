@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2d_crafts"
+	group: "59F8E57E2700FD46"
+	icon: {
+		id: "createaddition:electric_motor"
+	}
+	id: "3A1F3A9E97D88572"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7385D07023A2F87E"]
+			icon: {
+				id: "createaddition:rolling_mill"
+			}
+			id: "17154985C89350E9"
+			tasks: [
+				{
+					id: "11497F497835995C"
+					item: { count: 1, id: "createaddition:rolling_mill" }
+					type: "item"
+				}
+				{
+					id: "40C7C808B81F264C"
+					item: { count: 1, id: "createaddition:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17154985C89350E9"]
+			id: "7941C23D7D8A029D"
+			tasks: [
+				{
+					id: "2A440168698E6643"
+					item: { count: 1, id: "createaddition:copper_spool" }
+					type: "item"
+				}
+				{
+					id: "516B03DD1F1CAB84"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
+					id: "56BBDE1F0BA551DF"
+					item: { count: 1, id: "createaddition:large_connector" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7941C23D7D8A029D"
+				"3DF8E8C2383C8031"
+			]
+			id: "40EA646658CF137E"
+			tasks: [
+				{
+					id: "7B62B853B92A7F04"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "542BC1C530013C20"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3DB60FF916244751"
+				"7385D07023A2F87E"
+			]
+			id: "3DF8E8C2383C8031"
+			tasks: [{
+				id: "4F9124B93EFE68D3"
+				item: { count: 1, id: "createaddition:capacitor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3DF8E8C2383C8031"
+				"40EA646658CF137E"
+			]
+			id: "353F48F00EF2876A"
+			tasks: [{
+				id: "418D2AC429FC55DC"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["353F48F00EF2876A"]
+			id: "0420593D3F484CF2"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "4A1E1E4B168CA55E"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7941C23D7D8A029D"]
+			id: "1790A75CB237BE34"
+			tasks: [{
+				id: "1C8259C647D4A7F7"
+				item: { count: 1, id: "createaddition:redstone_relay" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

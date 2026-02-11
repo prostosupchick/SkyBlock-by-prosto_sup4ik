@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2b_enchantment_industry"
+	group: "59F8E57E2700FD46"
+	icon: {
+		id: "create_enchantment_industry:blaze_enchanter"
+	}
+	id: "2B69FC842DD7175A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7385D07023A2F87E"]
+			id: "0C87A8873BFA6D82"
+			tasks: [
+				{
+					id: "058C0D5924B4D38E"
+					item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+					type: "item"
+				}
+				{
+					id: "74262384AF74AA6C"
+					item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+					type: "item"
+				}
+				{
+					id: "6302A7ABF7BA3145"
+					item: { count: 1, id: "create_enchantment_industry:grindstone_drain" }
+					type: "item"
+				}
+				{
+					id: "1B791BC7DA8ABCD0"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C87A8873BFA6D82"]
+			id: "100A7902AFAE04B6"
+			tasks: [{
+				id: "6DE0494CB476B5C0"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100A7902AFAE04B6"]
+			id: "74E8B27E633510F8"
+			tasks: [{
+				id: "6A72517A4F0370AE"
+				item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74E8B27E633510F8"]
+			id: "4EBB77B95DC27379"
+			tasks: [
+				{
+					id: "5949AF285A6D559E"
+					item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+					type: "item"
+				}
+				{
+					id: "3A13C9A7D9E9509F"
+					item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EBB77B95DC27379"]
+			id: "6F221A3E2EE91F94"
+			tasks: [
+				{
+					id: "0A66AE6D69885452"
+					item: { count: 1, id: "create:experience_block" }
+					type: "item"
+				}
+				{
+					id: "68F097D869A1919D"
+					item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F221A3E2EE91F94"]
+			id: "619F325413042BBE"
+			tasks: [
+				{
+					id: "1FF88BEA427B0BC6"
+					item: { count: 1, id: "create_enchantment_industry:experience_cake" }
+					type: "item"
+				}
+				{
+					id: "3C2BF105D5F51A45"
+					item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
+					type: "item"
+				}
+				{
+					id: "7086F1C4ABD42B05"
+					item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

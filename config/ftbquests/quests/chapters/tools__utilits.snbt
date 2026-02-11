@@ -1,0 +1,337 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools__utilits"
+	group: "50D18B90AB8CFA57"
+	icon: {
+		id: "create_sa:copper_magnet"
+	}
+	id: "7FFA1F0BF7F49D8C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "515242BF7A34475A"
+			tasks: [{
+				id: "27C84793198E9000"
+				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "69270719D7724157"
+			tasks: [{
+				id: "36AB8EEAD9818E3A"
+				item: { count: 1, id: "create_dragons_plus:white_dye_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "453E86C17EC9387E"
+			tasks: [
+				{
+					id: "5A125857C70AD582"
+					item: { count: 1, id: "create_factory_logistics:copper_jar_package_8x8" }
+					type: "item"
+				}
+				{
+					id: "6919AE914D751962"
+					item: { count: 1, id: "create_factory_logistics:jar_packager" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "3BB379E537D103E7"
+			tasks: [{
+				id: "01DE48291BA59B9F"
+				item: { count: 1, id: "create_connected:item_silo" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "2410367E6568ADB2"
+			tasks: [{
+				id: "3C62CE728620103F"
+				item: { components: { "minecraft:block_entity_data": { id: "createcobblestone:mechanical_generator", type: "none" } }, count: 1, id: "createcobblestone:mechanical_generator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "791E2BA8D2795BAC"
+			tasks: [{
+				id: "3BFB388D3E9DBE41"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "2E733BE3DF8A3656"
+			tasks: [{
+				id: "6FE092711880325D"
+				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "300C427281F01FCD"
+			tasks: [{
+				id: "37892BF524375306"
+				item: { count: 1, id: "createfisheryindustry:mesh_trap" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0B6FE67CBEC4EC42"
+			tasks: [{
+				id: "664A9ACB2D90645B"
+				item: { count: 1, id: "createtransmission:transmission_chain" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "4CBF6C42F2D92FD1"
+			tasks: [{
+				id: "1DE485DD18822790"
+				item: { count: 1, id: "petrolsparts:corner_shaft" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "2655CD1960F4177F"
+			tasks: [{
+				id: "2014D929BBBAC461"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "36D7653CB4B61385"
+			tasks: [{
+				id: "37860EEBC0DD1EA2"
+				item: { count: 1, id: "create_pattern_schematics:empty_pattern_schematic" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "022AC779E9E37102"
+			tasks: [{
+				id: "7FD1B7733FB88A23"
+				item: { count: 1, id: "extra_gauges:logic_gauge" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "5BC36E5424597B77"
+			tasks: [{
+				id: "140DB02FFB248B4D"
+				item: { components: { "create:banktank_air": 900 }, count: 1, id: "create_jetpack:jetpack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "262DDAE8ACC58F2E"
+			tasks: [{
+				id: "1F5A63474C8F2C60"
+				item: { count: 1, id: "create_sa:copper_magnet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "34DFE738E2E2AE87"
+			tasks: [{
+				id: "2C080DBA9B8AC26C"
+				item: { count: 1, id: "theoneprobe:probe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "71A22C32815F45C1"
+			tasks: [{
+				id: "3A65098340FCB663"
+				item: { count: 1, id: "createrailwaysnavigator:navigator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "674F01E4FD420DFE"
+			tasks: [{
+				id: "63F1D6DF9986CF2C"
+				item: { count: 1, id: "constructionwand:diamond_wand" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "0FD6E6D1CAE095BD"
+			tasks: [{
+				id: "545701BECF094D84"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "5665CC85BCDA8B50"
+			tasks: [{
+				id: "7FF36105023ACC79"
+				item: { count: 1, id: "create_things_and_misc:mending_rune" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "6F20DD3C4A6EEDA0"
+			tasks: [{
+				id: "151F162F5CCC195A"
+				item: { count: 1, id: "copycats:copycat_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "1D0F4568A6D1276F"
+			tasks: [{
+				id: "17AA9439B1BD343D"
+				item: { count: 1, id: "create_hypertube:hypertube" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "4A4E22382923A074"
+			tasks: [{
+				id: "154D4EB68E8FD447"
+				item: { count: 1, id: "createdeco:brass_catwalk_stairs" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "45547D9A63C9B971"
+			tasks: [{
+				id: "7630118490FCFA59"
+				item: { count: 1, id: "escalated:metal_walkway_steps" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "420D487554ECE9A7"
+			tasks: [{
+				id: "532E2B8F3648F63C"
+				item: { count: 1, id: "create:mechanical_pump" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "create:controls"
+			}
+			id: "0201503F0064E5E4"
+			tasks: [{
+				id: "78A01CACCE4D98E7"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "5686EF9A0B4709DF"
+			tasks: [{
+				id: "5E9D7DAEB047CD68"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "1BE418DD2C16E979"
+			tasks: [{
+				id: "7D33EBCAB980902E"
+				item: { count: 1, id: "cmparallelpipes:pipe_wrench" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "07CBF04807C1D2F1"
+			tasks: [{
+				id: "2215620B1F84F6C0"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "7828E88414DEF417"
+			tasks: [
+				{
+					id: "63A7640EDEB743A1"
+					item: { count: 1, id: "snad:snad" }
+					type: "item"
+				}
+				{
+					id: "6B15C52ADED23289"
+					item: { count: 1, id: "snad:red_snad" }
+					type: "item"
+				}
+				{
+					id: "792795B53C7F7059"
+					item: { count: 1, id: "snad:suol_snad" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+	]
+}

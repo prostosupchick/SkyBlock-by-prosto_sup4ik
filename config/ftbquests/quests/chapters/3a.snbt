@@ -1,0 +1,405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3a"
+	group: "59F8E57E2700FD46"
+	icon: {
+		id: "tfmg:transformer"
+	}
+	id: "500D3382FC2FF9EC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["119876643B565212"]
+			id: "4DB3E66A35E76749"
+			tasks: [{
+				count: 9L
+				id: "75B3AD82B7CC0031"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DB3E66A35E76749"]
+			id: "44C81874609D15CE"
+			tasks: [{
+				id: "6CD7CB93346B321B"
+				item: { count: 1, id: "tfmg:coal_coke" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4DB3E66A35E76749"
+				"7E8CE97B1A46FA33"
+			]
+			id: "633D13C5F7280E73"
+			tasks: [
+				{
+					id: "5DFFB2B3C28D2449"
+					item: { count: 1, id: "tfmg:blast_furnace_output" }
+					type: "item"
+				}
+				{
+					id: "1315AEA18EB4474F"
+					item: { count: 1, id: "tfmg:blast_furnace_hatch" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "20A30037E314BF0B"
+					item: { count: 1, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "06399BA62F6048D5"
+					item: { count: 1, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5589C6D99638EB15"
+					item: { count: 1, id: "tfmg:blast_stove" }
+					type: "item"
+				}
+				{
+					id: "7E40BB97B25D66EE"
+					item: { count: 1, id: "tfmg:air_intake" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75B3AD82B7CC0031"]
+			id: "7E8CE97B1A46FA33"
+			tasks: [{
+				count: 212L
+				id: "2767E2C7B1086524"
+				item: { count: 1, id: "tfmg:fireclay_ball" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["194B3532EC429BEC"]
+			id: "0F54F2187C7661CD"
+			tasks: [{
+				id: "0C2BDA3D30FA869D"
+				item: { count: 1, id: "tfmg:limesand" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"20A30037E314BF0B"
+				"6CD7CB93346B321B"
+			]
+			id: "194B3532EC429BEC"
+			tasks: [{
+				id: "2B461C79D098354A"
+				item: { count: 1, id: "create:limestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"633D13C5F7280E73"
+				"0F54F2187C7661CD"
+				"44C81874609D15CE"
+			]
+			id: "7163FAA43688CD5D"
+			tasks: [{
+				id: "06B71F6B9CBF3A38"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7163FAA43688CD5D"
+				"6232549BAF69C101"
+				"69CE489D940571FD"
+			]
+			id: "5FE42014E5D5857E"
+			tasks: [{
+				id: "3094A3167942F488"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21E1C06F5BFBF2B5"]
+			id: "6232549BAF69C101"
+			tasks: [{
+				id: "03563F1A4A804E58"
+				item: { count: 1, id: "tfmg:lithium_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21E1C06F5BFBF2B5"]
+			id: "69CE489D940571FD"
+			tasks: [{
+				id: "4CCB98F9EBB7E991"
+				item: { count: 1, id: "tfmg:lead_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["06B71F6B9CBF3A38"]
+			id: "21E1C06F5BFBF2B5"
+			tasks: [{
+				id: "29BCCF1F2BECB0B7"
+				item: { count: 1, id: "tfmg:galena" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5FE42014E5D5857E"]
+			id: "64A0AFC96F16D59A"
+			tasks: [{
+				id: "26EC79CC3B6ECB43"
+				item: { count: 1, id: "tfmg:oil_deposit" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5FE42014E5D5857E"]
+			id: "1CA48E1EE7CB7D83"
+			tasks: [
+				{
+					count: 18L
+					id: "7A34A712B4FF152F"
+					item: { count: 1, id: "tfmg:steel_chemical_vat" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "58536F43A6713CB8"
+					item: { count: 1, id: "tfmg:electrode_holder" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6907B509E02DA9D4"
+				"1CA48E1EE7CB7D83"
+			]
+			id: "7C9B585169C870D5"
+			tasks: [{
+				id: "42600D3AF1292783"
+				item: { count: 1, id: "tfmg:aluminum_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7A34A712B4FF152F"
+				"58536F43A6713CB8"
+			]
+			id: "6907B509E02DA9D4"
+			tasks: [{
+				id: "1BB0368DD1C6A082"
+				item: { count: 1, id: "tfmg:bauxite" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64A0AFC96F16D59A"]
+			id: "5A4357267968504E"
+			tasks: [
+				{
+					id: "70F0F839C9225AD7"
+					item: { count: 1, id: "tfmg:steel_truss" }
+					type: "item"
+				}
+				{
+					id: "1478AAF70359783F"
+					item: { count: 1, id: "tfmg:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "78D8B056C9635792"
+					item: { count: 1, id: "tfmg:machine_input" }
+					type: "item"
+				}
+				{
+					id: "787EF3A1C1E92CA8"
+					item: { count: 1, id: "tfmg:pumpjack_base" }
+					type: "item"
+				}
+				{
+					id: "048EABF9F0FCB1D7"
+					item: { count: 1, id: "tfmg:industrial_pipe" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0C3415E39C9246D6"
+					item: { count: 1, id: "tfmg:pumpjack_hammer_part" }
+					type: "item"
+				}
+				{
+					id: "7417A57EC87FE88F"
+					item: { count: 1, id: "tfmg:pumpjack_hammer_head" }
+					type: "item"
+				}
+				{
+					id: "091A2B7DA715D714"
+					item: { count: 1, id: "tfmg:pumpjack_hammer_connector" }
+					type: "item"
+				}
+				{
+					id: "0E0ECABE16C2A979"
+					item: { count: 1, id: "tfmg:pumpjack_hammer" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A4357267968504E"]
+			id: "0A73F014BFEE4E11"
+			tasks: [
+				{
+					id: "1D5F3A4E58F09F08"
+					item: { count: 1, id: "tfmg:steel_distillation_controller" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "14FC2E437E5913B3"
+					item: { count: 1, id: "tfmg:steel_distillation_output" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2B5043EEA7F81504"
+					item: { count: 1, id: "tfmg:industrial_pipe" }
+					type: "item"
+				}
+				{
+					count: 108L
+					id: "35926A15C7304B56"
+					item: { count: 1, id: "tfmg:steel_fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["633D13C5F7280E73"]
+			id: "213AE97838BD0C3E"
+			tasks: [{
+				id: "3451FF0B9E05AA5E"
+				item: { count: 1, id: "tfmg:silicon_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["213AE97838BD0C3E"]
+			id: "1919881E201DFEF1"
+			tasks: [{
+				id: "45F2EABE06EA9861"
+				item: { count: 1, id: "tfmg:n_semiconductor" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C9B585169C870D5"]
+			id: "5FDFB727392B86FD"
+			tasks: [{
+				id: "67161023211BEE08"
+				item: { count: 1, id: "tfmg:p_semiconductor" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FDFB727392B86FD"]
+			id: "0D4934E325C5E491"
+			tasks: [{
+				id: "747379A71918EA86"
+				item: { count: 1, id: "tfmg:transistor_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D4934E325C5E491"]
+			id: "3C2E981EAF74D463"
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "45795415F3D9A0B9"
+				item: { count: 1, id: "tfmg:circuit_board" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5FE42014E5D5857E"]
+			id: "3AE9E6211AED0AFD"
+			tasks: [{
+				id: "652C21FF91E4D078"
+				item: { count: 1, id: "tfmg:magnetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AE9E6211AED0AFD"]
+			id: "732767102936A878"
+			tasks: [{
+				id: "744173A645B4D736"
+				item: { count: 1, id: "tfmg:magnet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+	]
+}

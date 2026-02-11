@@ -1,0 +1,1 @@
+blastFurnace.addRecipe("slime_ball2magma_cream", <item:minecraft:magma_cream>, <item:minecraft:slime_ball>, 1.0, 30);
