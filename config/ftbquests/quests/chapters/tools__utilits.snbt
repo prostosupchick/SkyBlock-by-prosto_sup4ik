@@ -171,7 +171,7 @@
 			id: "34DFE738E2E2AE87"
 			tasks: [{
 				id: "2C080DBA9B8AC26C"
-				item: { count: 1, id: "theoneprobe:probe" }
+				item: { components: { "ftbquests:missing_item": "theoneprobe:probe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d

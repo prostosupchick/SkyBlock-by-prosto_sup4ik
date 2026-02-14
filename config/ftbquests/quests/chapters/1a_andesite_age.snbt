@@ -185,58 +185,11 @@
 				id: "create:mechanical_press"
 			}
 			id: "0EB4EB664CB85797"
-			tasks: [
-				{
-					id: "4551E594BC977355"
-					item: { count: 1, id: "create:mechanical_press" }
-					type: "item"
-				}
-				{
-					id: "240B75F55E466D12"
-					item: { count: 1, id: "create:mechanical_drill" }
-					type: "item"
-				}
-				{
-					id: "79A9C0631CE78CA1"
-					item: { count: 1, id: "create:sticky_mechanical_piston" }
-					type: "item"
-				}
-				{
-					id: "2BDF9D26947FDCE6"
-					item: { count: 1, id: "create:mechanical_bearing" }
-					type: "item"
-				}
-				{
-					id: "5A4F82FF65DB087F"
-					item: { count: 1, id: "create:mechanical_drill" }
-					type: "item"
-				}
-				{
-					id: "176C9716D595C3DD"
-					item: { count: 1, id: "create:mechanical_harvester" }
-					type: "item"
-				}
-				{
-					id: "73C6F2D8D203954C"
-					item: { count: 1, id: "create:mechanical_plough" }
-					type: "item"
-				}
-				{
-					id: "6F819AFC04B78BD7"
-					item: { count: 1, id: "create:portable_storage_interface" }
-					type: "item"
-				}
-				{
-					id: "5288D2319AE54077"
-					item: { count: 1, id: "create:mechanical_mixer" }
-					type: "item"
-				}
-				{
-					id: "468A048E7D63A8A0"
-					item: { count: 1, id: "create:mechanical_saw" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79436EDD3963BBB9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create:mechanical_press)item(create:mechanical_drill)item(minecraft:sticky_piston)item(create:mechanical_bearing)item(create:mechanical_harvester)item(create:mechanical_plough)item(create:portable_storage_interface)item(create:mechanical_mixer)item(create:mechanical_saw))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
 		}
