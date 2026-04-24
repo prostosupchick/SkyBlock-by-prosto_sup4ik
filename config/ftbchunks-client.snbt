@@ -133,27 +133,27 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:skeleton": true
-			"minecraft:allay": true
-			"minecraft:wandering_trader": true
-			"minecraft:enderman": true
-			"minecraft:piglin": true
-			"minecraft:trader_llama": true
-			"minecraft:zombie": true
-			"railways:conductor": true
-			"minecraft:wither": true
-			"minecraft:blaze": true
-			"minecraft:bat": true
-			"minecraft:hoglin": true
-			"minecraft:villager": true
-			"minecraft:wither_skeleton": true
-			"minecraft:witch": true
-			"minecraft:creeper": true
-			"minecraft:zombified_piglin": true
-			"create_things_and_misc:balloon_blaze": true
-			"minecraft:axolotl": true
 			"minecraft:spider": true
+			"minecraft:axolotl": true
+			"railways:conductor": true
+			"create_things_and_misc:balloon_blaze": true
+			"minecraft:witch": true
+			"minecraft:villager": true
+			"minecraft:hoglin": true
+			"minecraft:zombie": true
+			"minecraft:wandering_trader": true
+			"minecraft:trader_llama": true
+			"minecraft:zombified_piglin": true
+			"minecraft:wither_skeleton": true
+			"minecraft:allay": true
+			"minecraft:wither": true
+			"minecraft:creeper": true
+			"minecraft:piglin": true
+			"minecraft:bat": true
+			"minecraft:enderman": true
 			"minecraft:strider": true
+			"minecraft:skeleton": true
+			"minecraft:blaze": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
