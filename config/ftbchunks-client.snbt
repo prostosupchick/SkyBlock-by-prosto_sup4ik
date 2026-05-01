@@ -133,43 +133,44 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:wolf": true
-			"minecraft:blaze": true
-			"minecraft:pufferfish": false
-			"minecraft:cat": true
-			"minecraft:zombie_villager": true
-			"minecraft:axolotl": true
-			"minecraft:zombified_piglin": true
-			"minecraft:villager": true
-			"minecraft:enderman": true
-			"minecraft:horse": true
-			"railways:conductor": true
-			"minecraft:cod": false
-			"minecraft:chicken": true
-			"minecraft:wither_skeleton": true
-			"minecraft:allay": true
-			"minecraft:bat": true
-			"minecraft:witch": true
-			"minecraft:wither": true
-			"minecraft:wandering_trader": true
-			"minecraft:squid": true
-			"minecraft:creeper": true
-			"minecraft:strider": true
-			"minecraft:spider": true
-			"minecraft:donkey": true
-			"minecraft:hoglin": true
-			"minecraft:sheep": true
-			"minecraft:zombie": true
-			"minecraft:iron_golem": true
-			"minecraft:drowned": true
-			"minecraft:pig": true
 			"minecraft:trader_llama": true
-			"minecraft:skeleton": true
-			"create_things_and_misc:balloon_blaze": true
-			"minecraft:glow_squid": true
-			"minecraft:tropical_fish": false
+			"minecraft:bat": true
+			"minecraft:iron_golem": true
+			"minecraft:hoglin": true
+			"minecraft:zombified_piglin": true
+			"minecraft:witch": true
 			"minecraft:cow": true
 			"minecraft:piglin": true
+			"minecraft:spider": true
+			"minecraft:allay": true
+			"minecraft:chicken": true
+			"minecraft:pig": true
+			"minecraft:wither": true
+			"minecraft:salmon": false
+			"minecraft:villager": true
+			"minecraft:pufferfish": false
+			"minecraft:enderman": true
+			"minecraft:squid": true
+			"minecraft:wither_skeleton": true
+			"create_things_and_misc:balloon_blaze": true
+			"minecraft:zombie": true
+			"minecraft:drowned": true
+			"minecraft:glow_squid": true
+			"minecraft:skeleton": true
+			"minecraft:donkey": true
+			"minecraft:wolf": true
+			"minecraft:cat": true
+			"minecraft:blaze": true
+			"minecraft:cod": false
+			"minecraft:strider": true
+			"minecraft:tropical_fish": false
+			"minecraft:wandering_trader": true
+			"minecraft:horse": true
+			"minecraft:zombie_villager": true
+			"minecraft:axolotl": true
+			"railways:conductor": true
+			"minecraft:sheep": true
+			"minecraft:creeper": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
